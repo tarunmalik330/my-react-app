@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+.nav_links {
+  @apply text-black border border-black border-solid w-[43px] h-[43px] rounded-full text-xl font-medium flex items-center justify-center cursor-pointer;
+}
