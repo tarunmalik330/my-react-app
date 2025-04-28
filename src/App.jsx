@@ -2,6 +2,7 @@ import "./App.css";
 import ChildComponent from "./components/ChildComponent";
 import AppProvider from "./context/AppContext";
 import Navbar from "./components/Navbar";
+import ArrayTask from "./components/ArrayTask";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Navbar />
         <ChildComponent />
       </AppProvider>
+      <ArrayTask />
     </>
   );
 }
